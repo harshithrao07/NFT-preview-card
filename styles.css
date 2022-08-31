@@ -1,0 +1,129 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+}
+
+.card {
+  width: 18rem;
+  height: 30rem;
+  border-radius: 20px;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 0 0 10px 0 #16213E;
+}
+
+.ethereum {
+  width: 13px;
+  float: left;
+}
+
+.clock {
+  width: 20px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.artist {
+  width: 25px;
+  float: left;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Outfit";
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+.nft-image {
+  width: 255px;
+  margin: 15px 15px 0 15px;
+  border-radius: 20px;
+}
+
+.price {
+  display: inline-block;
+  font-family: "Outfit";
+  font-weight: 600;
+  font-size: 14px;
+  position: relative;
+  left: 7px;
+  bottom: 3px;
+  color: hsl(178, 100%, 50%);
+}
+
+.time {
+  display: inline-block;
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 14px;
+  position: relative;
+  bottom: 4px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-family: "Outfit";
+  font-family: 600;
+}
+
+.artist, .created {
+  margin-top: 10px;
+}
+
+.artist {
+  margin-right: 15px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.created {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 14px;
+  color: hsl(215, 51%, 70%);
+  position: relative;
+  top: 7px;
+}
+
+strong {
+  color: white;
+}
+
+.card-title:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+strong:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.hover-image {
+  position: absolute;
+  width: 252px;
+  left: 17px;
+  border-radius: 20px;
+  top: 15px;
+  height: 255px;
+  transition: .3s ease;
+  background-color: hsl(178, 100%, 50%);
+  opacity: 0;
+}
+
+.hover-image:hover {
+  opacity: 0.5;
+}
+
+.eye {
+  position: absolute;
+  left: 100px;
+  bottom: 110px;
+}
+
+.line-break {
+  height: 1.5px;
+  background-color: hsl(215, 32%, 27%);
+}
